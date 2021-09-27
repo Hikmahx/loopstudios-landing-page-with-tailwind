@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    <title>Loopstudios Landing Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <title>Loopstudios Landing Page</title>
 </head>
 <body>
+  <!-- HEADER -->
+  <header class="relative w-full h-full bg-black">
+    <img src="./images/mobile/image-hero.jpg" class="lg:hidden block w-full h-full object-fill opacity-70" alt="mobile-hero">
+    <img src="./images/desktop/image-hero.jpg" class="hidden w-full lg:block h-1\/6 object-fill opacity-70" alt="desktop-hero">
+    <nav class="absolute top-0  w-full h-max py-8 px-8 sm:px-20 sm:py-20 md:py-16 lg:px-40  w-4 z-10 flex items-center justify-between">
+      <img src="./images/logo.svg" class="h-full mx-1 relative" alt="logo">
+      <div class="hamburger-menu lg:hidden">
+        <img src="./images/icon-hamburger.svg" alt="hamburger-menu">
+      </div>
+      <ul class="hidden lg:flex text-white font-JosefinSans gap-8">
+        <li><a href="/">About</a></li>
+        <li><a href="/">Careers</a></li>
+        <li><a href="/">Events</a></li>
+        <li><a href="/">Products</a></li>
+        <li><a href="/">Support</a></li>
+      </ul>
+    </nav>
+      <!-- <div class="absolute sm:top-36 lg:top-48 xl:top-56 left-40 border-solid border-white border-2 px-10 py-10 w-5\/12 max-w-2xl font-4xl "> -->
+    <div class="absolute top-52 sm:top-96 lg:top-32 xl:top-56 mx-8 sm:mx-20 lg:ml-40 border-solid border-white border-2 p-5 sm:p-10 md:p-10 lg:p-9 lg:max-w-2xl">
+      <h1 class = 'text-white text-4xl sm:text-7xl font-JosefinSans'>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+    </div>
+  </header>
 </body>
 </html>
