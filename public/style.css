@@ -22369,7 +22369,7 @@ video {
 }
 
 .font-Alata {
-  font-family: "Alata", sans-serif;
+  font-family: Alata, sans-serif;
 }
 
 .font-JosefinSans {
@@ -32239,8 +32239,6 @@ video {
 .content-none {
   content: none;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
 
 @media (min-width: 640px) {
   .sm\:container {
@@ -53946,7 +53944,7 @@ video {
   }
 
   .sm\:font-Alata {
-    font-family: "Alata", sans-serif;
+    font-family: Alata, sans-serif;
   }
 
   .sm\:font-JosefinSans {
@@ -85169,7 +85167,7 @@ video {
   }
 
   .md\:font-Alata {
-    font-family: "Alata", sans-serif;
+    font-family: Alata, sans-serif;
   }
 
   .md\:font-JosefinSans {
@@ -116392,7 +116390,7 @@ video {
   }
 
   .lg\:font-Alata {
-    font-family: "Alata", sans-serif;
+    font-family: Alata, sans-serif;
   }
 
   .lg\:font-JosefinSans {
@@ -147615,7 +147613,7 @@ video {
   }
 
   .xl\:font-Alata {
-    font-family: "Alata", sans-serif;
+    font-family: Alata, sans-serif;
   }
 
   .xl\:font-JosefinSans {
@@ -178838,7 +178836,7 @@ video {
   }
 
   .\32xl\:font-Alata {
-    font-family: "Alata", sans-serif;
+    font-family: Alata, sans-serif;
   }
 
   .\32xl\:font-JosefinSans {

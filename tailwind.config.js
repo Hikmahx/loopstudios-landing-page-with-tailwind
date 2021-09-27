@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      Alata:['"Alata"', 'sans-serif'], 
+      Alata:['Alata', 'sans-serif'], 
       JosefinSans: ['"Josefin Sans"', 'sans-serif']
     }
   },
