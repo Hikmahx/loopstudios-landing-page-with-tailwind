@@ -8,6 +8,7 @@ module.exports = {
       JosefinSans: ['"Josefin Sans"', 'sans-serif']
     },
     gridTemplateRows: {
+      '2' : 'repeat(2, 50%)',
       '3' : '10% 45% 45%'
     }
   },
