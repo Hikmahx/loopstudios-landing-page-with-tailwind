@@ -6,6 +6,9 @@ module.exports = {
     fontFamily:{
       Alata:['Alata', 'sans-serif'], 
       JosefinSans: ['"Josefin Sans"', 'sans-serif']
+    },
+    gridTemplateRows: {
+      '3' : '10% 45% 45%'
     }
   },
   variants: {
